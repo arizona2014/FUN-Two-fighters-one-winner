@@ -6,21 +6,21 @@ Both health and damagePerAttack (damage_per_attack for python) will be integers 
 
 ## Example:
 
-  declareWinner(new Fighter("Lew", 10, 2), new Fighter("Harry", 5, 4), "Lew") => "Lew"
+  declareWinner(new Fighter("Lew", 10, 2), new Fighter("Harry", 5, 4), "Lew") => "Lew" 
 
-  declare_winner(Fighter("Lew", 10, 2), Fighter("Harry", 5, 4), "Lew") => "Lew"
-  Lew attacks Harry; Harry now has 3 health.
-  Harry attacks Lew; Lew now has 6 health.
-  Lew attacks Harry; Harry now has 1 health.
-  Harry attacks Lew; Lew now has 2 health.
+  declare_winner(Fighter("Lew", 10, 2), Fighter("Harry", 5, 4), "Lew") => "Lew"<br />
+  Lew attacks Harry; Harry now has 3 health.<br />
+  Harry attacks Lew; Lew now has 6 health.<br />
+  Lew attacks Harry; Harry now has 1 health.<br />
+  Harry attacks Lew; Lew now has 2 health.<br />
   Lew attacks Harry: Harry now has -1 health and is dead. Lew wins.
   
  
 ## Javascript  
 
-  function Fighter(name, health, damagePerAttack) {
-			this.name = name;
-			this.health = health;
-			this.damagePerAttack = damagePerAttack;
-			this.toString = function() { return this.name; }
+  function Fighter(name, health, damagePerAttack) {<br />
+			this.name = name;<br />
+			this.health = health;<br />
+			this.damagePerAttack = damagePerAttack;<br />
+			this.toString = function() { return this.name; }<br />
   }  
