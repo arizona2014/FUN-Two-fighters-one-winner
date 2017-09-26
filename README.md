@@ -4,7 +4,7 @@ Each fighter takes turns attacking the other and whoever kills the other first i
 Each fighter will be a Fighter object/instance. See the Fighter class below in your chosen language.  
 Both health and damagePerAttack (damage_per_attack for python) will be integers larger than 0. You can mutate the Fighter objects.
 
-##Example:
+## Example:
 
   declareWinner(new Fighter("Lew", 10, 2), new Fighter("Harry", 5, 4), "Lew") => "Lew"
 
@@ -16,7 +16,7 @@ Both health and damagePerAttack (damage_per_attack for python) will be integers 
   Lew attacks Harry: Harry now has -1 health and is dead. Lew wins.
   
  
-##Javascript  
+## Javascript  
 
   function Fighter(name, health, damagePerAttack) {
 			this.name = name;
