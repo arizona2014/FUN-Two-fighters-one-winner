@@ -14,3 +14,13 @@ Both health and damagePerAttack (damage_per_attack for python) will be integers 
   Lew attacks Harry; Harry now has 1 health.
   Harry attacks Lew; Lew now has 2 health.
   Lew attacks Harry: Harry now has -1 health and is dead. Lew wins.
+  
+ 
+##Javascript  
+
+  function Fighter(name, health, damagePerAttack) {
+			this.name = name;
+			this.health = health;
+			this.damagePerAttack = damagePerAttack;
+			this.toString = function() { return this.name; }
+  }  
